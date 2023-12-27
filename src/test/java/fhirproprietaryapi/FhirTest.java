@@ -1,4 +1,4 @@
-package computerdatabase;
+package fhirproprietaryapi;
 
 import static io.gatling.javaapi.core.CoreDsl.*;
 import static io.gatling.javaapi.http.HttpDsl.*;
@@ -15,7 +15,7 @@ import java.util.concurrent.ThreadLocalRandom;
  *   <li><a href="https://gatling.io/docs/gatling/tutorials/advanced">Gatling advanced tutorial</a>
  * </ul>
  */
-public class ComputerDatabaseSimulation extends Simulation {
+public class FhirTest extends Simulation {
 
     FeederBuilder<String> feeder = csv("search.csv").random();
 
